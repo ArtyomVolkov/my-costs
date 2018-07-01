@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#app {
+  position: relative;
+  min-height: 100%;
+  background: #ececec;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

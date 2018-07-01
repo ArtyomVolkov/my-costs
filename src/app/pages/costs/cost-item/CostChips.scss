@@ -1,0 +1,65 @@
+.cost-chips {
+  display: flex;
+  align-items: center;
+}
+
+.chip {
+  margin: 5px 5px 5px 0;
+  border: 1px solid #dcdcdc !important;
+
+  &:hover {
+    background: #bdbdbd;
+  }
+
+  .cost-av {
+    background: #d2d0d0;
+  }
+  .cost-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .cost-value {
+    font-weight: 600;
+  }
+
+  .fa-glass-martini {
+    color: #ff1100;
+  }
+
+  .fa-medkit {
+    color: #e42666;
+  }
+
+  .fa-mobile-alt {
+    color: #009688;
+  }
+
+  .fa-internet-explorer {
+    color: #03a9f4;
+  }
+
+  .fa-home {
+    color: #ff5722;
+  }
+
+  .fa-coffee {
+    color: #795548;
+  }
+
+  .fa-taxi {
+    color: #607d8b;
+  }
+
+  .fa-shopping-basket {
+    color: #3F51B5;
+  }
+}
+
+.notes-content {
+  width: 200px;
+  padding: 5px 10px;
+  outline: none;
+}

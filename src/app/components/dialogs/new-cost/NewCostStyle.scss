@@ -1,0 +1,31 @@
+.new-cost-form {
+  max-width: 500px;
+  min-width: 300px;
+  padding-top: 20px;
+  transition: opacity 0.5s;
+
+  &.submitting {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    .fas, .far, .fab {
+      font-size: 24px;
+      width: 28px;
+      margin-right: 10px;
+    }
+  }
+
+  .costs-grid {
+    padding: 16px 0 10px 0;
+  }
+}
+
+.progress-bar {
+  height: 5px;
+}
